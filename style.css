@@ -15,14 +15,26 @@
   box-sizing: border-box;
 }
 
-p, ul {
+p,
+ul {
   max-width: 50rem;
   line-height: 1.5;
   margin: 11px 0;
 }
 
-ul{
-  margin-left:8px;
+ul {
+  margin-left: 8px;
+}
+
+#clippy {
+  width: 200px;
+  height: 200px;
+}
+
+.clippywrapper {
+  position: absolute;
+  right: 0;
+  bottom: 0
 }
 
 button {
