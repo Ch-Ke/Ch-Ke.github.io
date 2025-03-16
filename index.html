@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ch-ke</title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>This my website...</p>
-  </body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ch-ke</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="desktop">
+    <div class="taskbar">
+      <button class="taskbar-button" id="startbutton">Start</button>
+      <button class="taskbar-button" id="projects">todo</button>
+      <button class="taskbar-button" id="monkey">Funny Monkeys</button>
+    </div>
+    <div class="window" id="window1">
+      <div class="window-bar">
+        <div class="window-bar-text">To do list</div>
+        <div class="window-bar-buttons">
+          <button class="bar-button">&#150</button>
+          <button class="bar-button">+</button>
+          <button class="bar-button" id="xbutton">✖</button>
+        </div>
+      </div>
+      <div class="window-content">
+        <p>Display Text</p>
+        <ul>
+          <li>make boxes dragable</li>
+          <li>implement start menu</li>
+          <li>add desktop icons</li>
+          <li>add taskbar icons</li>
+        </ul>
+        <section class="util-row">
+          <button>OK</button>
+          <button>Cancel</button>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="script.js">
+
+  </script>
+</body>
+
+</html>
